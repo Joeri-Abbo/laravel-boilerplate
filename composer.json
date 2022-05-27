@@ -16,8 +16,19 @@
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "^1.0"
+        "spatie/laravel-ignition": "^1.0",
+        "symplify/vendor-patches": "^10.2",
+        "vimeo/psalm": "dev-feature/fix-depricated-package",
+        "phpstan/phpstan": "^0.12.99",
+        "barryvdh/laravel-debugbar": "^3.6",
+        "squizlabs/php_codesniffer": "^3.6.2"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Joeri-Abbo/psalm"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -53,7 +64,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
