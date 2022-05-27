@@ -197,6 +197,9 @@ return [
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
 
+        // Register telescope service provider by appServiceProvider
+//        App\Providers\TelescopeServiceProvider::class,
+
     ],
 
     /*

@@ -14,16 +14,17 @@
         "livewire/livewire": "^2.5"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.6",
         "fakerphp/faker": "^1.9.1",
+        "laravel/telescope": "^4.9",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
+        "phpstan/phpstan": "^0.12.99",
         "phpunit/phpunit": "^9.5.10",
         "spatie/laravel-ignition": "^1.0",
+        "squizlabs/php_codesniffer": "^3.6.2",
         "symplify/vendor-patches": "^10.2",
-        "vimeo/psalm": "dev-feature/fix-depricated-package",
-        "phpstan/phpstan": "^0.12.99",
-        "barryvdh/laravel-debugbar": "^3.6",
-        "squizlabs/php_codesniffer": "^3.6.2"
+        "vimeo/psalm": "dev-feature/fix-depricated-package"
     },
     "repositories": [
         {
@@ -60,7 +61,9 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [
+                "laravel/telescope"
+            ]
         }
     },
     "config": {
