@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acb82d01317311249a1b216549df9d93",
+    "content-hash": "3bc36124a145cd0107c6ee71be5f30d2",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -9463,16 +9463,16 @@
         },
         {
             "name": "symplify/vendor-patches",
-            "version": "10.3.2",
+            "version": "11.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/vendor-patches.git",
-                "reference": "478abaca4461891d9eb1445ab09e2482ef6c2b88"
+                "reference": "b55709ebe367b11a4c258b14234174572bc9c402"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/vendor-patches/zipball/478abaca4461891d9eb1445ab09e2482ef6c2b88",
-                "reference": "478abaca4461891d9eb1445ab09e2482ef6c2b88",
+                "url": "https://api.github.com/repos/symplify/vendor-patches/zipball/b55709ebe367b11a4c258b14234174572bc9c402",
+                "reference": "b55709ebe367b11a4c258b14234174572bc9c402",
                 "shasum": ""
             },
             "require": {
@@ -9494,7 +9494,7 @@
             ],
             "description": "Generate vendor patches for packages with single command",
             "support": {
-                "source": "https://github.com/symplify/vendor-patches/tree/10.3.2"
+                "source": "https://github.com/symplify/vendor-patches/tree/11.0.3"
             },
             "funding": [
                 {
@@ -9506,7 +9506,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-11T11:43:20+00:00"
+            "time": "2022-06-13T23:33:56+00:00"
         },
         {
             "name": "theseer/tokenizer",
