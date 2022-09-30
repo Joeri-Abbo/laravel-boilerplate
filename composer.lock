@@ -9542,16 +9542,16 @@
         },
         {
             "name": "symplify/vendor-patches",
-            "version": "11.1.9",
+            "version": "11.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/vendor-patches.git",
-                "reference": "3c34d5c99c0c278e22d7b91f0222898331c7ecad"
+                "reference": "b758280d81955c4591faddd8fb9b7a2cda69873d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/vendor-patches/zipball/3c34d5c99c0c278e22d7b91f0222898331c7ecad",
-                "reference": "3c34d5c99c0c278e22d7b91f0222898331c7ecad",
+                "url": "https://api.github.com/repos/symplify/vendor-patches/zipball/b758280d81955c4591faddd8fb9b7a2cda69873d",
+                "reference": "b758280d81955c4591faddd8fb9b7a2cda69873d",
                 "shasum": ""
             },
             "require": {
@@ -9573,7 +9573,7 @@
             ],
             "description": "Generate vendor patches for packages with single command",
             "support": {
-                "source": "https://github.com/symplify/vendor-patches/tree/11.1.9"
+                "source": "https://github.com/symplify/vendor-patches/tree/11.1.10"
             },
             "funding": [
                 {
@@ -9585,7 +9585,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-02T10:08:47+00:00"
+            "time": "2022-09-29T10:40:49+00:00"
         },
         {
             "name": "theseer/tokenizer",
