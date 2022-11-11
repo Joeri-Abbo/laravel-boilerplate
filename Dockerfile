@@ -1,6 +1,6 @@
 # we still use composer one
 FROM composer:2 as composer
-FROM php:8.2.0RC5-fpm-alpine3.15
+FROM php:8.2.0RC6-fpm-alpine3.15
 
 WORKDIR /app
 
