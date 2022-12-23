@@ -6514,16 +6514,16 @@
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.7.2",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "e9969cfc0796e6dea9b4e52f77f18e1065212871"
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/e9969cfc0796e6dea9b4e52f77f18e1065212871",
-                "reference": "e9969cfc0796e6dea9b4e52f77f18e1065212871",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
                 "shasum": ""
             },
             "require": {
@@ -6556,9 +6556,9 @@
             "description": "Provides a way to patch Composer packages.",
             "support": {
                 "issues": "https://github.com/cweagans/composer-patches/issues",
-                "source": "https://github.com/cweagans/composer-patches/tree/1.7.2"
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.3"
             },
-            "time": "2022-01-25T19:21:20+00:00"
+            "time": "2022-12-20T22:53:13+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -9551,16 +9551,16 @@
         },
         {
             "name": "symplify/vendor-patches",
-            "version": "11.1.20",
+            "version": "11.1.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/vendor-patches.git",
-                "reference": "21e3a7f074e2f1ac92a754b5b399193274575b9d"
+                "reference": "acf1e55d4ccd7c5f1b7cfe24612ba53ffd3db009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/vendor-patches/zipball/21e3a7f074e2f1ac92a754b5b399193274575b9d",
-                "reference": "21e3a7f074e2f1ac92a754b5b399193274575b9d",
+                "url": "https://api.github.com/repos/symplify/vendor-patches/zipball/acf1e55d4ccd7c5f1b7cfe24612ba53ffd3db009",
+                "reference": "acf1e55d4ccd7c5f1b7cfe24612ba53ffd3db009",
                 "shasum": ""
             },
             "require": {
@@ -9582,7 +9582,7 @@
             ],
             "description": "Generate vendor patches for packages with single command",
             "support": {
-                "source": "https://github.com/symplify/vendor-patches/tree/11.1.20"
+                "source": "https://github.com/symplify/vendor-patches/tree/11.1.21"
             },
             "funding": [
                 {
@@ -9594,7 +9594,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-19T12:26:41+00:00"
+            "time": "2022-12-22T15:36:57+00:00"
         },
         {
             "name": "theseer/tokenizer",
