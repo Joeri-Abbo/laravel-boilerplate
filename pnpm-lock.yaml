@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.3)
   alpinejs:
-    specifier: ^3.12.3
-    version: 3.12.3
+    specifier: ^3.13.0
+    version: 3.13.0
   axios:
     specifier: ^1.5
     version: 1.5.0
@@ -1738,8 +1738,8 @@ packages:
       uri-js: 4.4.1
     dev: true
 
-  /alpinejs@3.12.3:
-    resolution: {integrity: sha512-fLz2dfYQ3xCk7Ip8LiIpV2W+9brUyex2TAE7Z0BCvZdUDklJE+n+a8gCgLWzfZ0GzZNZu7HUP8Z0z6Xbm6fsSA==}
+  /alpinejs@3.13.0:
+    resolution: {integrity: sha512-7FYR1Yz3evIjlJD1mZ3SYWSw+jlOmQGeQ1QiSufSQ6J84XMQFkzxm6OobiZ928SfqhGdoIp2SsABNsS4rXMMJw==}
     dependencies:
       '@vue/reactivity': 3.1.5
     dev: true
