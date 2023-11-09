@@ -16,7 +16,7 @@ devDependencies:
     version: 3.13.2
   axios:
     specifier: ^1.6
-    version: 1.6.0
+    version: 1.6.1
   laravel-mix:
     specifier: ^6.0.49
     version: 6.0.49(@babel/core@7.18.2)(@babel/plugin-proposal-object-rest-spread@7.18.0)(@babel/plugin-syntax-dynamic-import@7.8.3)(@babel/plugin-transform-runtime@7.18.2)(@babel/preset-env@7.18.2)(postcss@8.4.31)(webpack-cli@4.9.2)(webpack@5.88.2)
@@ -1890,8 +1890,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /axios@1.6.0:
-    resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
+  /axios@1.6.1:
+    resolution: {integrity: sha512-vfBmhDpKafglh0EldBEbVuoe7DyAavGSLWhuSm5ZSEKQnHhBf0xAAwybbNH1IkrJNGnS/VG4I5yxig1pCEXE4g==}
     dependencies:
       follow-redirects: 1.15.1
       form-data: 4.0.0
