@@ -2503,7 +2503,7 @@ packages:
       postcss-modules-scope: 3.0.0(postcss@8.4.37)
       postcss-modules-values: 4.0.0(postcss@8.4.37)
       postcss-value-parser: 4.2.0
-      schema-utils: 3.1.1
+      schema-utils: 3.3.0
       semver: 7.3.7
       webpack: 5.88.2(webpack-cli@4.9.2)
     dev: true
@@ -2990,7 +2990,7 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       loader-utils: 2.0.2
-      schema-utils: 3.1.1
+      schema-utils: 3.3.0
       webpack: 5.88.2(webpack-cli@4.9.2)
     dev: true
 
@@ -3277,7 +3277,7 @@ packages:
       html-minifier-terser: 5.1.1
       htmlparser2: 4.1.0
       loader-utils: 2.0.2
-      schema-utils: 3.1.1
+      schema-utils: 3.3.0
       webpack: 5.88.2(webpack-cli@4.9.2)
     dev: true
 
@@ -3898,7 +3898,7 @@ packages:
       webpack: ^4.4.0 || ^5.0.0
     dependencies:
       loader-utils: 2.0.2
-      schema-utils: 3.1.1
+      schema-utils: 3.3.0
       webpack: 5.88.2(webpack-cli@4.9.2)
       webpack-sources: 1.4.3
     dev: true
@@ -5013,15 +5013,6 @@ packages:
       ajv-keywords: 3.5.2(ajv@6.12.6)
     dev: true
 
-  /schema-utils@3.1.1:
-    resolution: {integrity: sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw==}
-    engines: {node: '>= 10.13.0'}
-    dependencies:
-      '@types/json-schema': 7.0.11
-      ajv: 6.12.6
-      ajv-keywords: 3.5.2(ajv@6.12.6)
-    dev: true
-
   /schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
     engines: {node: '>= 10.13.0'}
@@ -5328,7 +5319,7 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       loader-utils: 2.0.2
-      schema-utils: 3.1.1
+      schema-utils: 3.3.0
       webpack: 5.88.2(webpack-cli@4.9.2)
     dev: true
 
@@ -5450,7 +5441,7 @@ packages:
         optional: true
     dependencies:
       jest-worker: 27.5.1
-      schema-utils: 3.1.1
+      schema-utils: 3.3.0
       serialize-javascript: 6.0.0
       source-map: 0.6.1
       terser: 5.13.1
@@ -5726,8 +5717,8 @@ packages:
       webpack-merge: 5.8.0
     dev: true
 
-  /webpack-dev-middleware@5.3.3(webpack@5.88.2):
-    resolution: {integrity: sha512-hj5CYrY0bZLB+eTO+x/j67Pkrquiy7kWepMHmUMoPsmcUaeEnQJqFzHJOyxgWlq746/wUuA64p9ta34Kyb01pA==}
+  /webpack-dev-middleware@5.3.4(webpack@5.88.2):
+    resolution: {integrity: sha512-BVdTqhhs+0IfoeAf7EoH5WE+exCmqGerHfDM0IL096Px60Tq2Mn9MAbnaGUe6HiMa41KMCYF19gyzZmBcq/o4Q==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
@@ -5779,7 +5770,7 @@ packages:
       spdy: 4.0.2
       webpack: 5.88.2(webpack-cli@4.9.2)
       webpack-cli: 4.9.2(webpack@5.88.2)
-      webpack-dev-middleware: 5.3.3(webpack@5.88.2)
+      webpack-dev-middleware: 5.3.4(webpack@5.88.2)
       ws: 8.7.0
     transitivePeerDependencies:
       - bufferutil
