@@ -3137,12 +3137,12 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.7.0:
-    resolution: {integrity: sha512-c2gsP0PRwcLFzUiA8Mkr37/MI7ilIlHQxaEAtd0uNMbVMoy8puJyafRlm0bV9MbGSabUPeLrRRaqIBcFcA2Pqg==}
+  ws@8.17.1:
+    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
-      utf-8-validate: ^5.0.2
+      utf-8-validate: '>=5.0.2'
     peerDependenciesMeta:
       bufferutil:
         optional: true
@@ -6616,7 +6616,7 @@ snapshots:
       spdy: 4.0.2
       webpack: 5.88.2(webpack-cli@4.9.2)
       webpack-dev-middleware: 5.3.4(webpack@5.88.2(webpack-cli@4.9.2))
-      ws: 8.7.0
+      ws: 8.17.1
     optionalDependencies:
       webpack-cli: 4.9.2(webpack@5.88.2)
     transitivePeerDependencies:
@@ -6711,7 +6711,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.7.0: {}
+  ws@8.17.1: {}
 
   xtend@4.0.2: {}
 
