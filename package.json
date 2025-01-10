@@ -12,7 +12,7 @@
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
         "@tailwindcss/typography": "^0.5.13",
-        "alpinejs": "^3.14.1",
+        "alpinejs": "^3.14.8",
         "axios": "^1.7",
         "laravel-mix": "^6.0.49",
         "lodash": "^4.17.19",
