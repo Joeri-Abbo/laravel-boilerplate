@@ -18,7 +18,7 @@ services:
       - db
 
   db:
-    image: mariadb:11.8
+    image: mariadb:12.0
     volumes:
       - ./storage/app/database:/var/lib/mysql
     environment:
