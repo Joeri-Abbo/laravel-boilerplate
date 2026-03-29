@@ -12,4 +12,9 @@
         <severity>0</severity>
     </rule>
 
+    <!-- Test methods use snake_case by Laravel convention -->
+    <rule ref="PSR1.Methods.CamelCapsMethodName">
+        <exclude-pattern>tests/</exclude-pattern>
+    </rule>
+
 </ruleset>
